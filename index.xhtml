@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <script src="js/jscript.js"></script>
+    <link rel="stylesheet" href="css/style.css" type="text/css"/>
+</head>
+<body>
+<div class="bdy" id="bstyle">
+<header>
+    <h1 class="page_head">Welcome to the NGO Landing Page</h1>
+</header>
+<section>
+
+<table>
+<thead>
+<td colspan="3"><h3>Here we going to calculate the Simple Interest</h3></td>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Enter the Loan Amount:</p>
+</td>
+<td>
+<p>Enter the Rate of Interest:</p>
+</td>
+<td>
+<p>Enter the Interest Period:</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="in"><input type="number" oninput="bnorm();" id="intprin" placeholder="Principle amount" min="1000" step="1000">Not Supported by your browser</input></p>
+</td>
+<td>
+<p class="in"><input type="number" id="intper" placeholder="Interest Percentage" min="5">Not Supported by your browser</input></p>
+</td>
+<td>
+<p class="in"><input type="number" id="intyear" placeholder="Year(s)" min="0" max="50">Not Supported by your browser</input> <input type="number" id="intmonth" placeholder="Month(s)" min="0" max="11">Not Supported by your browser</input></p>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td colspan="3">
+<button id="calcbtn" onmousedown="calcint();" onmouseup="calcvr();">Calculate the Interest</button>
+<p id="intout">Calulated interest</p>
+</td>
+</tr>
+<tr>
+<td colspan="3">
+<button id="rstbtn" onmousedown="rst();" onmouseup="rstvr();">Reset the values</button>
+</td>
+</tr>
+</tfoot>
+</table>
+</section>
+</div>
+</body>
+</html>

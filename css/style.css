@@ -1,0 +1,34 @@
+body{
+background: #EEEEEE;
+margin: 1em;
+font-family: sans-serif;
+text-align: center;
+}
+
+#intprin{width: 150px;}
+#intper{width: 150px;}
+#intyear{width: 75px;}
+#intmonth{width: 75px;}
+
+header{color: #66CC33;}
+
+h3{margin-top: 5%; margin-bottom: 3%; color: blue;}
+
+p{margin-top: 2em; margin-bottom: 0.5em;}
+
+p.in{margin-top: 0em;}
+
+button#calcbtn{margin-top: 1em; border: 3px outset #66CC33; border-radius: 0.5em; width: 250px; height: 50px; font-size: 120%; color:#66CC33;}
+
+button#calcbtn:hover{border-color:#FF0000;}
+
+button#rstbtn{margin-top: 1em; border: 3px outset #FF0000; border-radius: 0.5em; width: 250px; height: 50px; font-size: 120%; color:#FF0000;}
+
+button#rstbtn:hover{border-color: #66CC33;}
+
+.bdy{margin-top: 5%; border: 3px solid black; border-radius: 20px; margin-left: auto; margin-right: auto; width: 50%; background: #DDDDDD; padding: 15px;}
+
+#intout{font-size: 150%;}
+
+table{width: 100%;}
+table tbody tr td{text-align: left; padding-left: 20px;}
